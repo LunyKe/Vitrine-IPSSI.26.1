@@ -1,0 +1,77 @@
+:root {
+    --pale-blue: #ebf3fa;
+    --marine-blue : #234179; 
+    --dark-red: #af443f;  
+    --dark-blue: #253a62;
+}
+
+header {
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: rgba(255, 255, 255, 0.23);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5.8px);
+-webkit-backdrop-filter: blur(5.8px);
+border: 1px solid rgba(255, 255, 255, 0.18);
+
+
+}
+
+nav a {
+color: var(--dark-blue);
+text-decoration: none;
+margin-left: 16px;
+
+
+}
+
+body{
+color: var(--dark-blue);
+font-family: Arial, Helvetica, sans-serif;
+background-image: url(../../Images/Images/blue-pale.svg);
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+nav a:hover{
+font-weight: bold;
+cursor: pointer;
+}
+
+#home img {
+    width: 480px;
+    height: 352px;
+}
+
+#home{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    width: 80vw;
+    margin: 0 auto;
+
+}
+
+button {
+    background: linear-gradient(var(--dark-blue),var(--dark-red));
+    color: white;
+    border: solid 1px var(--dark-blue);
+    padding: 4px 8px;
+    border-radius: 8px;
+}
+
+/* img:first-child{
+    Position: fixed;
+    top:0;
+    left:0;
+    z-index: -1;
+} */
+
